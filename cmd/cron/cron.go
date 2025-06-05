@@ -20,7 +20,7 @@ var CronCmd = &cobra.Command{
 }
 
 func doInit() {
-	internal.InitApp()
+	internal.App = internal.InitApp()
 	internal.App.Data["cache"] = cache.InitializeCache()
 }
 

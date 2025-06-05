@@ -35,6 +35,7 @@ func initQueue() {
 }
 func doInit() {
 	i18n.InitI18n()
+	internal.App = internal.InitApp()
 	internal.App.Data["cache"] = cache.InitializeCache()
 	initQueue()
 }

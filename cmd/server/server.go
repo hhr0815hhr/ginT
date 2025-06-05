@@ -20,7 +20,7 @@ import (
 
 func doInit() {
 	i18n.InitI18n()
-	internal.InitApp()
+	internal.App = internal.InitApp()
 	internal.App.Data["cache"] = cache.InitializeCache()
 	initQueue()
 }
