@@ -1,0 +1,49 @@
+{
+  "datacenter": {
+    "region": {
+      "nodata":"123"
+    }
+  },
+  "login": {
+    "googleAuthErr": "谷歌认证失败",
+    "phoneCodeErr": "验证码错误"
+  },
+  "pay": {
+    "orderNotExist": "订单不存在"
+  },
+  "common": {
+    "invalidParam":"参数错误",
+    "nodata": "暂无数据",
+    "dataErr": "数据错误",
+    "deleteErr": "删除失败"
+  },
+  "project": {
+    "createErr": "创建项目失败",
+    "updateFailed": "更新失败",
+    "hasRunningNode": "当前项目有运行中的节点，请先销毁所有节点",
+    "emailNotCorrect": "邀请用户不存在",
+    "inviteFailed": "邀请失败"
+  },
+  "node": {
+    "getVncEr": "获取VNC失败",
+    "onlyOwner": "只有项目创建者才能销毁节点"
+  },
+
+  "mail": {
+    "verifyHeader": "您的邮箱验证码",
+    "verifyBody": "您的验证码是：%s，请访问 %s 完成验证。",
+    "verifyTemplate": "<!DOCTYPE html><html><head>    <meta charset=\"utf-8\">    <style>        .container {            max-width: 600px;            margin: 0 auto;            font-family: 'Helvetica Neue', Arial, sans-serif;        }        .header {            text-align: center;            padding: 20px;            background: #f8f9fa;        }        .brand {            color: #2c3e50;            font-size: 24px;            font-weight: bold;        }        .content {            padding: 30px 20px;            background: white;        }        .code-box {            background: #e8f4ff;            padding: 25px;            margin: 25px 0;            text-align: center;            border-radius: 8px;            border: 2px dashed #3498db;        }        .code {            color: #3498db;            font-size: 32px;            letter-spacing: 3px;            font-weight: 700;            margin: 10px 0;        }        .note {            color: #7f8c8d;            font-size: 14px;            line-height: 1.6;        }        .footer {            text-align: center;            padding: 20px;            color: #95a5a6;            font-size: 12px;            border-top: 1px solid #ecf0f1;        }    </style></head><body>    <div class=\"container\">        <div class=\"header\">            <div class=\"brand\">GssHosting</div>        </div>        <div class=\"content\">            <p>您正在尝试登录/注册，请使用以下验证码完成操作：</p>            <div class=\"code-box\">                <div class=\"code\">%s</div>            </div>            <p style=\"color: #6c757d;\">此验证码 <strong>10 分钟</strong> 内有效，请勿泄露给他人。</p>            <p>点击以下链接完成验证：</p>            <p><a href=\"%s\" style=\"color: #3498db; text-decoration: none;\">%s</a></p>            <div class=\"note\">                <p>⚠\uFE0F 安全提示：</p>                <ul>                    <li>此验证码仅用于验证您的身份，请勿告知他人。</li>                    <li>如果这不是您本人的操作，请立即修改账户密码。</li>                </ul>            </div>        </div>        <div class=\"footer\">            <p>此邮件由系统自动发送，请勿直接回复。</p>            <p>© 2025 GssHosting 保留所有权利。</p>            <p>需要帮助？请联系 <a href=\"mailto:business@gssidc.com\" style=\"color: #3498db; text-decoration: none;\">客户支持</a>。</p>        </div>    </div></body></html>"
+  },
+  "operationLog": {
+    "createProject": "创建新项目 \"%s\"",
+    "deleteProject": "删除项目 \"%s\"",
+    "createNode": "创建项目节点 \"%s\"",
+    "deleteNode": "销毁项目节点 \"%s\"",
+    "createImage": "创建镜像 \"%s\"",
+    "deleteImage": "删除镜像 \"%s\"",
+    "inviteUser": "新增项目\"%s\"子用户: %s",
+    "powerOn": "开启节点 \"%s\"",
+    "powerOff": "关闭节点 \"%s\"",
+    "reboot": "重启节点 \"%s\""
+  }
+}

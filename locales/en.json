@@ -1,0 +1,20 @@
+{
+  "datacenter": {
+    "region": {
+      "nodata":"123"
+    }
+  },
+  "login": {
+    "googleAuthErr": "google token is invalid",
+    "phoneCodeErr": "phone code is invalid"
+  },
+  "common": {
+    "invalidParam":"invalid param"
+  },
+
+  "mail": {
+    "verifyHeader": "您的邮箱验证码",
+    "verifyBody": "您的验证码是：%s，请访问 %s 完成验证。",
+    "verifyTemplate": "<p>您好！</p><br /><p>您的验证码是：<strong>%s</strong></p><br /><p>请点击以下链接完成验证：</p><br /><p><a href=\"%s\">点击验证</a></p><br /><p>如果您没有请求此验证码，请忽略这封邮件。</p>"
+  }
+}
